@@ -1,6 +1,6 @@
 body {
-  background-color: #daeb6c;
-} 
+  background-color: #daeb6c;} 
+
 h1 {font-family: Impact, fantasy;
 font-size: 70px;
 line-height: 1.42857143;
@@ -20,3 +20,9 @@ h4{font-family: Noto Sans, sans-serif;
 font-size: 15px;
 line-height: 1.42857143;
 color: #123a91;}
+
+.box {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+}
