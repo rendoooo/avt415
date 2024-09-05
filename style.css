@@ -9,20 +9,34 @@ color: #123a91;}
 h2 {font-family: Impact, fantasy;
 font-size: 40px;
 line-height: 1.42857143;
-color: #123a91;} 
+color: #daeb6c;} 
 
 h3 {font-family: Noto Sans, sans-serif;
 font-size: 20px;
 line-height: 1.42857143;
-color: #123a91;}
+color: #daeb6c;}
 
 h4{font-family: Noto Sans, sans-serif;
 font-size: 15px;
 line-height: 1.42857143;
-color: #123a91;}
+color: #daeb6c;}
 
-.box {
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 1rem 1.5rem;
+.intro-post {
+  width: 350px; border: 10px;
+  display: inline-block;
+  background: #123a91;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 40px;
 }
+
+<style>
+    .h2colorchange {font-family: Impact, fantasy;
+font-size: 40px;
+line-height: 1.42857143;
+color: #123a91;}
+</style>
