@@ -1,1 +1,22 @@
-<
+body {
+  background-color: #daeb6c;
+} 
+h1 {font-family: Impact, fantasy;
+font-size: 70px;
+line-height: 1.42857143;
+color: #123a91;}
+
+h2 {font-family: Noto Sans, sans-serif;
+font-size: 40px;
+line-height: 1.42857143;
+color: #123a91;} 
+
+h3 {font-family: Noto Sans, sans-serif;
+font-size: 20px;
+line-height: 1.42857143;
+color: #123a91;}
+
+h4{font-family: Noto Sans, sans-serif;
+font-size: 15px;
+line-height: 1.42857143;
+color: #123a91;}
