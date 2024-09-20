@@ -12,11 +12,12 @@ h1{
 	margin-top: 35vh;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 300px)
 /*styles for screen sizes 768px and above */
 
 body {background-color: #8B939C
 }
+	.large-size {}
 
 h1{
 	font-size: 40px;
