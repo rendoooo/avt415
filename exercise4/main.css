@@ -1,29 +1,54 @@
-body {background-color: #59546C
+body {
+    background-color: #8EAFD3;
+    background-image: url('exercise4outside.png'); 
+    background-position: center center; 
+    background-size: cover; 
+    height: 100vh; 
+    justify-content: center;
+    align-items: center;
 }
 
-
-h1{
-	font-family: Palatino, serif;
-	font-size: 60px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #0E131F;
-	text-align: center;
-	margin-top: 35vh;
+p {
+    font-family: Palatino, serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0E131F;
+    text-align: center;
+    margin-top: 35vh;
+}
+.outside {
+    display: block; 
+}
+.inside, .inside2 {
+    display: none; 
 }
 
-@media screen and (min-width: 300px)
-/*styles for screen sizes 768px and above */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #E0CBBB;
+        background-image: url('exercise4inside.png'); 
+        background-position: center center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        margin: 0;
+        height: 100vh; 
 
-body {background-color: #8B939C
-}
-	.large-size {}
+    p {
+        font-size: 60px;
+        margin-top: 0; 
+    }
+   .outside {
+        display: none;
+    } 
 
-h1{
-	font-size: 40px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #0E131F;
-	text-align: center;	
-	margin-top: 45vh;
+    .inside {
+        text-align: left;
+        display: block; 
+    }
+
+    .inside2 {
+        text-align: right;
+        display: block; 
+    }
 }
