@@ -1,25 +1,40 @@
 body {
     background-color: #8EAFD3;
-    background-image: url('exercise4outside.png'); 
+    background-image: url('exercise4outsidecard.png'); 
     background-position: center center; 
     background-size: cover; 
     height: 100vh; 
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 p {
-    font-family: Palatino, serif;
-    font-size: 60px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #0E131F;
+    color: #3B4489;
     text-align: center;
     margin-top: 35vh;
 }
-.outside {
+.outside, .outside2 {
     display: block; 
 }
+
+.outside{ 
+    font-size: 60px;
+}
+
+.outside2{ 
+    font-size:100px;
+    font-style: normal; 
+    font-variant: normal; 
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
 .inside, .inside2 {
     display: none; 
 }
@@ -35,19 +50,51 @@ p {
         height: 100vh; 
 
     p {
+        font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
         font-size: 60px;
         margin-top: 0; 
     }
-   .outside {
+   .outside, .outside2 {
         display: none;
     } 
+    .inside, .inside2 {
+        display: none;
+    }
+}
 
+@media screen and (min-width: 1300px) {
+    body {
+        background-color: #E0CBBB;
+        background-image: url('exercise4inside.png'); 
+        background-position: center center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        margin: 0;
+        height: 100vh; 
+
+    p {
+        font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+        font-size: 60px;
+        margin-top: 0; 
+    }
+   .outside, .outside2 {
+        display: none;
+    } 
+    .inside, .inside2 {
+        position: absolute;
+        top: 50%; 
+        transform: translateY(-50%); 
+        font-size: 100px; 
+        color: #AC5F5B;
+    }
     .inside {
+        left: 10%; 
         text-align: left;
         display: block; 
     }
 
     .inside2 {
+        right: 10%; 
         text-align: right;
         display: block; 
     }
