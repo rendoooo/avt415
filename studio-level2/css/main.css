@@ -6,6 +6,9 @@ body {
   line-height: 1.5;
   color: #333333;
 }
+.about {
+  background-color: #ffd700;
+}
 main {
   width: 70vw;
   margin: 100px auto;
