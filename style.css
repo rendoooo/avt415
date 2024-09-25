@@ -34,9 +34,28 @@ color: #daeb6c;}
   border-bottom-right-radius: 40px;
 }
 
-.h2colorchange {font-family: Impact, fantasy;
-font-size: 40px;
-line-height: 1.42857143;
-color: #123a91;}
+.h2colorchange {
+    font-family: Impact, fantasy;
+    font-size: 40px;
+    line-height: 1.42857143;
+    color: #123a91; 
+}
 
-a:link, a:hover
+.h2colorchange a {
+    color: #123a91; 
+    text-decoration: none; 
+}
+
+
+.h2colorchange a:visited {
+    color: #123a91;
+
+a {
+    text-decoration: none;
+    color: #daeb6c; 
+}
+
+
+a:visited {
+    color: #daeb6c; /
+}
