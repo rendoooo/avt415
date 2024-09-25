@@ -41,6 +41,16 @@ color: #daeb6c;}
     color: #123a91; 
 }
 
+a {
+    text-decoration: none;
+    color: #daeb6c; 
+}
+
+
+a:visited {
+    color: #daeb6c;
+}
+
 .h2colorchange a {
     color: #123a91; 
     text-decoration: none; 
@@ -49,13 +59,4 @@ color: #daeb6c;}
 
 .h2colorchange a:visited {
     color: #123a91;
-
-a {
-    text-decoration: none;
-    color: #daeb6c; 
-}
-
-
-a:visited {
-    color: #daeb6c; /
 }
