@@ -60,3 +60,10 @@ a:visited {
 .h2colorchange a:visited {
     color: #123a91;
 }
+
+.h2weekscolorchange {
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #123a91; 
+}
